@@ -77,7 +77,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         }
 
         public void bind(Tweet tweet) {
-            tvScreenName.setText(tweet.user.screenName);
+            tvScreenName.setText(tweet.user.name + " @" + tweet.user.screenName);
             tvBody.setText(tweet.body);
 
             Glide.with(context).load(tweet.user.profileImgUrl).into(ivProfileImage);
