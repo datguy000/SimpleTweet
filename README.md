@@ -1,22 +1,22 @@
-# Project 2 - *Name of App Here*
+# Project 2 - *SimpleTweet*
 
-**Name of your app** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
+**SimpleTweet** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User can **sign in to Twitter** using OAuth login
-- [ ]	User can **view tweets from their home timeline**
+- [X] User can **sign in to Twitter** using OAuth login
+- [X]	User can **view tweets from their home timeline**
   - [ ] User is displayed the username, name, and body for each tweet
   - [ ] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
-- [ ] User can refresh tweets timeline by pulling down to refresh
+- [X] User can refresh tweets timeline by pulling down to refresh
 
 The following **optional** features are implemented:
 
-- [ ] User can view more tweets as they scroll with infinite pagination
+- [X] User can view more tweets as they scroll with infinite pagination
 - [ ] Improve the user interface and theme the app to feel "twitter branded"
 - [ ] Links in tweets are clickable and will launch the web browser
 - [ ] User can tap a tweet to display a "detailed" view of that tweet
@@ -33,13 +33,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/datguy000/SimpleTweet/blob/master/SimpleTweet_Part1.gif' width='250' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
-
-Describe any challenges encountered while building the app.
 
 ## Open-source libraries used
 
@@ -48,7 +45,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2021] [CodePath.org]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
