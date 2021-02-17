@@ -77,7 +77,9 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         }
 
         public void bind(Tweet tweet) {
-            tvScreenName.setText(tweet.user.name + " @" + tweet.user.screenName);
+            String relativeTime = ParseRelativeData.getRelativeTimeAgo(tweet.createdAt);
+            String message = tweet.user.name + " @" + tweet.user.screenName + " " + relativeTime;
+            tvScreenName.setText(message);
             tvBody.setText(tweet.body);
 
             Glide.with(context).load(tweet.user.profileImgUrl).into(ivProfileImage);
