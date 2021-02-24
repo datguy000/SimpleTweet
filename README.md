@@ -29,9 +29,13 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a **walkthrough** of implemented user stories:
 
 <img src='https://github.com/datguy000/SimpleTweet/blob/master/SimpleTweet_Part2.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+
+The gif below shows the **link opening** feature:
+
+<img src='https://github.com/datguy000/SimpleTweet/blob/master/SimpleTweet_Part2_linkopening.gif' title='Link Opening' width='250' alt='Link Opening' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
